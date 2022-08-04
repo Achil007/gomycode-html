@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <h1>Welcome to this site </h1> 
+       <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LuuOpozKbvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </header>
+    
+    <nav>
+        <h3><a href="#about">about</a></h3>
+        <h3><a href="#resume">resume</a></h3>
+        <h3><a href="#work">work</a></h3>
+        <h3><a href="#contact">contact me</a></h3>
+    </nav>
+
+    <main>
+        <div id="about">
+            <img src="logo.jpeg.jpg" alt="my logo" />
+            
+        <h2><a href="https://www.youtube.com/channel/UCYpdSocajB8oyIM2qlsUr4w" target="_blank">Achil007 Follow me on youtube.com </a></h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="resume">
+                <h1>I code some HTML CSS and soon JAVASCRIPT</h1>
+            
+            <img src="https://tse1.mm.bing.net/th?id=OIP.aDhD1FH26r-i6xT21QqbegHaEG&pid=Api&P=0" alt="HTML CSS JAVASCRIPT">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="work">
+            <h1>
+                Take a look to my skills and defaults
+            </h1>
+        <table border="1">
+            <tr>
+                <th>Skills</th>
+                <th>DEFAULTS</th>
+            </tr>
+            <tr>
+                <td>Good vibes worker lmaoo</td>
+                <td>gets mad after accumulating certain fails</td>
+            </tr>
+            <tr>
+            <td>loves working with teams</td>
+            <td>Acharned and and really curious</td>
+            </tr>
+        </table>
+        </div>
+        <footer id="contact">
+            <form>
+                <div>
+                    <h2>Full Name</h2>
+                    <input placeholder="type your name" type="text"/>
+                </div>
+                <div>
+                    <h2>Email</h2>
+                    <input placeholder="type your email address" type="email"/>
+                </div>
+                <div>
+                    <h2>Password</h2>
+                    <input id="password" name="password" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" placeholder="Password" required>
+                <div>
+                    <h2>Confirm password</h2>
+                    <input id="password_two" name="password_two" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same Password as above' : '');" placeholder="Confirm Password" required>
+                </div>
+                <br>
+                <div>
+                    <button>SUBMIT</button>
+                </div>
+            </form>
+            <h4>
+                Copiright &copy; Achil007 2021-2022- All right reserved</h4>
+        </footer>
+          
+        
+    </main>
+</body>
+</html>
