@@ -1,0 +1,64 @@
+main{
+    text-align: center;
+    
+}
+input{
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+    margin-left: 200px;
+    background-image: linear-gradient(to top,red,  rgba(237, 67, 33, 0.838));
+}
+#email{
+    margin-left: 75px;
+}
+button{
+    color: white;
+    background-color: red;
+    text-decoration:none
+}
+{
+    background-color: white;
+    transition: 0.3s all;
+}
+button:hover{
+    background-color: white;
+    background-image: linear-gradient(to top, rgba(237, 67, 33, 0.838),red);
+    color: aqua;
+    
+}
+a{
+    font-size: 30px;
+    
+}
+div #Retarget{
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+h1{
+    
+    margin-left: 30px;
+    font-size: 60px;
+    
+    
+
+}
+body{
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 5%;
+}
+form{
+    
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    text-align: none;
+    color: black;
+}
+a:hover{
+    color: rgb(189, 184, 33);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Signinstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    
+    <a href="index.html">Accueil</a>
+    
+    <h1>
+            Login to your account
+    </h1>
+    <form>
+        <div>
+            <label>E-mail</label>
+            <input id="email" placeholder="" type="email" required/>
+        </div>
+        <div>
+            <label>Password</label>
+            <input id="password" name="password" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" placeholder="" required>
+            
+        <br>
+        <br>
+        <div>
+            <button type="submit">Connexion</button>
+        </div>
+        <div id="Retarget">
+            <a href="Signup.html"> No account ? Create one</a>
+            
+        </div>
+    </form>
+    
+    
+    
+</body>
+</html>

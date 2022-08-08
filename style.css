@@ -1,0 +1,130 @@
+
+
+a {
+    font-size: 30px;
+    display: inline;
+    margin-right: 30px;
+}
+header {
+    
+    padding: 20px;
+    margin-bottom: 0px;
+    background-color: aqua;
+
+
+}
+
+header p {
+    text-align: left;
+    font-size: 30px;
+    display: inline;
+    margin-left: 50px;
+    
+}
+header div {
+    text-align: right;
+    margin-left:400px;
+    width: 600px;
+    font-size:30px;
+    display: inline;
+    
+
+
+}
+header div input{
+    
+    text-align: center;
+    font-size: 30px;
+    display: inline;
+   
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+
+nav {
+    display: inline-flex;
+    background: white;
+    text-align: right;
+    height: 100px;
+    width: 100vmax;
+    justify-items: center;
+}
+h2{
+    display:inline-block ;
+    font-size: 45px;
+    margin: 0 3.5vmax;
+    padding-top: 10px;
+}
+.head{
+    display: inline-flex;
+    width:25vmax ;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+
+}
+.head1{
+    border-right: 5px solid black;
+}
+.menubar{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 60px;
+    width: 78vmax;
+}
+nav ul li:hover,nav ul li .head:hover{
+    background: #7b7eaa;
+    height: 100px;
+    width: 385px;
+    transition: all 0.3s ease;
+    font-size: 30px;
+}
+nav ul li:hover .head{
+    font-size: 30px;
+ }
+li{
+    list-style: none;
+}
+.dropdown1 ,.dropdown2 ,.dropdown3{
+    display: none;
+}
+nav ul li:hover .dropdown1{
+    display: block;
+    background: rgb(255,255,64);
+    position: absolute;
+    width: 25vmax;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+nav ul li:hover .dropdown1 li{
+    padding: 15px;
+    border-bottom:2px dashed black;
+    text-align: center;
+
+}
+nav ul li:hover .dropdown1 li:hover a{
+    color: #7c7b44;
+    font-size: 25px ;
+    transition: font-size 0.5s ease;
+}
+nav ul li:hover .dropdown1 li:hover{
+    height: auto;
+    background: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    justify-content: center;
+}

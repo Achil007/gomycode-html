@@ -3,28 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <header>
-       <h1>Welcome to this site </h1> 
-       <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/LuuOpozKbvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       <p>Yassine's music</p>
+       <div><label>Research product</label>
+       <input placeholder="Search" type="search">
+       </div>
     </header>
-    
-    <nav>
-        <h3><a href="#about">about</a></h3>
-        <h3><a href="#resume">resume</a></h3>
-        <h3><a href="#work">work</a></h3>
-        <h3><a href="#contact">contact me</a></h3>
+    <nav role="navigation">
+        <h2>Menu</h2>
+        <ul class="menubar">
+            <li><a href="#" class="head head1">Account</a>
+                <ul class="dropdown1">
+                    <li><a href="Signup.html" target="_blank">Sign Up</a></li>
+                    <li><a href="signin.html" target="_blank">Sign In</a></li>
+    <!--                <li><a href="#">Sub-13</a></li>-->
+                </ul>
+            </li>
+            <li><a href="#" class="head head1">Categories</a>
+                <ul class="dropdown1">
+                    <li><a href="#">Beats</a></li>
+                    <li><a href="#">Drumkits</a></li>
+    <!--                <li><a href="#"></a></li>-->
+                </ul>
+            </li>
+            <li><a href="#" class="head">Language</a>
+            <ul class="dropdown1">
+                <li><a href="#">English</a></li>
+                <li><a href="#">Frensh</a></li>
+                <li><a href="#">Arabic</a></li>
+            </ul>
+            </li>
+        </ul>
     </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div>
+        
+        <a href="#resume">Resume</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact me</a>
+    </div>
 
     <main>
-        <div id="about">
-            <img src="logo.jpeg.jpg" alt="my logo" />
-            
-        <h2><a href="https://www.youtube.com/channel/UCYpdSocajB8oyIM2qlsUr4w" target="_blank">Achil007 Follow me on youtube.com </a></h2>
+        
         <br>
         <br>
         <br>
@@ -60,34 +98,23 @@
             <td>Acharned and and really curious</td>
             </tr>
         </table>
+        <br>
+        <br>
+        <br>
         </div>
-        <footer id="contact">
-            <form>
-                <div>
-                    <h2>Full Name</h2>
-                    <input placeholder="type your name" type="text"/>
-                </div>
-                <div>
-                    <h2>Email</h2>
-                    <input placeholder="type your email address" type="email"/>
-                </div>
-                <div>
-                    <h2>Password</h2>
-                    <input id="password" name="password" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" placeholder="Password" required>
-                <div>
-                    <h2>Confirm password</h2>
-                    <input id="password_two" name="password_two" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same Password as above' : '');" placeholder="Confirm Password" required>
-                </div>
-                <br>
-                <div>
-                    <button>SUBMIT</button>
-                </div>
-            </form>
-            <h4>
-                Copiright &copy; Achil007 2021-2022- All right reserved</h4>
-        </footer>
+        
           
         
     </main>
+    <footer id="contact">
+           
+        <h4>
+            Copiright &copy; Achil007 2021-2022- All right reserved</h4>
+        <div class="btn">
+            <a href="About.html" target=blank>About</a>
+             
+        </div>
+    </footer>
+
 </body>
 </html>
