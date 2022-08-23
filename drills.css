@@ -1,0 +1,26 @@
+.Accueil{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 5px;
+    
+
+}
+.link:hover{
+    color: rgb(189, 184, 33);
+}
+main{
+    padding-top: 5%;
+    letter-spacing: 5px;
+}
+.inr{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
