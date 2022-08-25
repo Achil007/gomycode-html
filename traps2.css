@@ -1,0 +1,39 @@
+.col{
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container{
+    display: flex;
+    
+
+    margin-left: 100px;
+   
+}
+.imgs{
+    margin-left: 50px;
+}
+.help{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigate{
+    display: flex;
+   
+}
+.custom-search-button{
+    background-color: green!important;
+    color: white!important; 
+}
+.collapse{
+    display: flex!important;
+    justify-content: space-around!important;
+}

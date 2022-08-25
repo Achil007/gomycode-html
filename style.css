@@ -6,10 +6,12 @@ a {
     margin-right: 30px;
 }
 header {
+    width: 100%;
     
-    padding: 20px;
+    display: flex;
+    
     margin-bottom: 0px;
-    background-color: aqua;
+    
 
 
 }
@@ -27,6 +29,7 @@ header div {
     width: 600px;
     font-size:30px;
     display: inline;
+
     
 
 
@@ -51,11 +54,11 @@ nav {
     background: white;
     text-align: right;
     height: 100px;
-    width: 100vmax;
+    width: 100%;
     justify-items: center;
 }
 h2{
-    display:inline-block ;
+    display:inline-block ;  
     font-size: 45px;
     margin: 0 3.5vmax;
     padding-top: 10px;
@@ -66,25 +69,28 @@ h2{
     justify-content: center;
     height: 100px;
     align-items: center;
+    color: blue;
 
 }
 .head1{
     border-right: 5px solid black;
+    color: blue;
 }
 .menubar{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     height: 60px;
     width: 78vmax;
 }
-nav ul li:hover,nav ul li .head:hover{
+/*nav ul li:hover,nav ul li .head:hover{
     background: #7b7eaa;
     height: 100px;
     width: 385px;
     transition: all 0.3s ease;
     font-size: 30px;
-}
+} */
 nav ul li:hover .head{
     font-size: 30px;
  }
@@ -129,6 +135,7 @@ body{
     justify-content: center;
 }
 .RES{
+    border-radius: 20%;
     background-color: aqua;
     color: black;
     margin-left: 20px;
@@ -143,17 +150,25 @@ body{
     display: inline;
     border-radius: 10%;
 } */
-.image{
+.logo{
+    width: 60px;
+    height: 60px;
 border-radius: 50%;
 }
 #descrip{
+    margin-top: 50px;
+    margin-left: 100px;
     font-size: 1.5em;
+    margin-right: 100px;
+    text-align: center;
 }
 .material{
-    
+    margin-right: 100px;
     width: 500px;
 }
 #resume{
+    display: flex;
+   
     
 }
 .matos{
@@ -162,7 +177,8 @@ border-radius: 50%;
    
 }
 .services__item--marketplace {
-    background: red;
+    
+    background: lightblue;
     font-size: 1em;
 }
 .services__item {
@@ -181,10 +197,74 @@ border-radius: 50%;
     font-size: 20px;
 }
 #work{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
 }
 .inf{
     text-decoration: none;
-    color: yellow;
+    color: purple;
 }
+#banner img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.beatmaking{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+.help{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigate{
+    display: flex;
+   
+}
+.custom-search-button{
+    background-color: green!important;
+    color: white!important; 
+}
+.navbar{
+    height: 100%;
+   
+}
+.cate{
+    text-align: center;
+    margin-top: 50px;
+}
+.active{
+  
+}
+
+
+.carousel-item img{
+    object-fit: cover!important;    
+    width: 1500px!important;
+    display: flex!important;
+    justify-content: center!important;
+    overflow: hidden!important;
+    height: 400px!important;
+}
+.carousel-control{
+    background-color: transparent!important;
+    object-fit: cover!important;
+}
+.flic{
+    border: none!important;
+    background-color: transparent!important;
+    object-fit: cover!important;
+}
+.flic:hover{
+    background-color: none!important;
+    object-fit: cover!important;
+}
+
