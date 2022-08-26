@@ -3,7 +3,8 @@ main{
     
 }
 input{
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
 }
 button{
     font-size: 30px;
@@ -18,10 +19,7 @@ button{
     background-color: red;
     text-decoration:none
 }
-{
-    background-color: white;
-    transition: 0.3s all;
-}
+
 button:hover{
     background-color: white;
     background-image: linear-gradient(to top, rgba(237, 67, 33, 0.838),red);
@@ -52,7 +50,7 @@ body{
 }
 form{
     
-    font-size: 50px;
+    font-size: 20px;
 }
 a{
     text-decoration: none;
@@ -61,4 +59,26 @@ a{
 }
 a:hover{
     color: rgb(189, 184, 33);
+}
+.form{
+   
+    text-align: left;
+    margin: 0 auto;
+    width: 600px;
+}
+.sign{
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    
+       
+    width: 412px;
+    margin: 0 auto;
+    
+
+}
+.sub{
+    display: flex;
+    
+    justify-content: left;
 }

@@ -267,4 +267,8 @@ border-radius: 50%;
     background-color: none!important;
     object-fit: cover!important;
 }
+#copi{
+    border-top: solid  lightgray 3px;
+    
+}
 

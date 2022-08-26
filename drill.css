@@ -46,6 +46,7 @@
 .cart {
     background-color: lightgrey;
     display: none;
+    padding-bottom: 12px;
 }
 .cart.visible {
     display: block;
@@ -63,16 +64,20 @@
     display: block;
 }
 .acc{
-    color:white ;
+    color: white;
+    margin-left: 300px;
     font-size: 1.5em;
-
-    margin-left: 350px;
+    letter-spacing: 2px;
 }
 .acc:hover{
-    color: white;
     text-decoration: none;
+    color: white;
 }
-.plot{
-    display: flex;
-    justify-content: space-around;
+.counter{
+    background-color: black;
+    border-radius: 50%;
+    padding:1px 4px;
+    color: white;
+    width: 20px;
+    height: 20px;
 }

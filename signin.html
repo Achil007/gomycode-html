@@ -23,8 +23,6 @@
                 <label>Password</label>
                 <input id="password" name="password" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" placeholder="" required>
             
-            <br>
-            <br>
             <div>
                 <button type="submit">Connexion</button>
             </div>
